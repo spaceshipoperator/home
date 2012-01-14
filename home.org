@@ -10,14 +10,14 @@
 ** resources
    [[https://github.com/spaceshipoperator/a_portable_guide]["a portable guide"]]
 ** implementation
-   - the home directory (typically /home/<username>) will contain the following directories:
-     1. plan
-	a git submodule which contains org files that are independent of projects such as daily.org (time spent on activities), notes.org, also org files for projects that don't yet have their own repository under 'maintain'
-     2. platform
-	a git submodule which contains configuration files, including dotfiles (hidden config files in the user home directory) as well as others that reside outside of this users home (such as /etc), additionally there is a script which will create symbolic links in appropriate locations to refer to these files.
-     3. consider
-	a directory which contains items *not under source control*, externally received and generated content such as web downloads, adhoc and miscellaneous work as well as any logs that don't otherwise belong somewhere outside of 'home'.
-     4. reference
-	a directory which contains materials *not under source control*, generally .pdf files, web sites, text documents retrieved from and maintained by external sources; a curated library of sorts.
-     5. maintain
-	individual project repositories to which this user contributes.
+   the home directory (typically /home/<username>) will contain the following directories:
+   - plan
+     a git submodule which contains org files that are independent of projects such as daily.org (time spent on activities), notes.org, also org files for projects that don't yet have their own repository under 'maintain'
+   - platform
+     a git submodule which contains configuration files, including dotfiles (hidden config files in the user home directory) as well as others that reside outside of this users home (such as /etc), additionally there is a script which will create symbolic links in appropriate locations to refer to these files.
+   - consider
+     a directory which contains items *not under source control*, externally received and generated content such as web downloads, adhoc and miscellaneous work as well as any logs that don't otherwise belong somewhere outside of 'home'.
+   - reference
+     a directory which contains materials *not under source control*, generally .pdf files, web sites, text documents retrieved from and maintained by external sources; a curated library of sorts.
+   - maintain
+     individual project repositories to which this user contributes.
