@@ -7,11 +7,13 @@
 ** considerations
    This design is intended to be implemented on Linux operating systems.  It should accomodate other operating systems (such as Windows or Macintosh) but mileage may vary.
    
-   Any resources that do not fit within the structure as designed will be addressed here:
+   - Any resources that do not fit within the structure as designed will be addressed here:
+
+   - README.org is simply a symbolic link that refers to home.org for the sake of a github splash page for the project
 ** resources
    [[https://github.com/spaceshipoperator/a_portable_guide]["a portable guide"]]
 ** implementation
-   the home directory (typically /home/<username>) will contain the following directories:
+   the home directory (typically /home/<username>) will contain the following directories, listed here in the order in which they correspond to the approach:
    - *plan*:  
      
      a git submodule which contains org files that are independent of projects such as daily.org (time spent on activities), notes.org, also org files for projects that don't yet have their own repository under 'maintain'
