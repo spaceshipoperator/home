@@ -1,4 +1,5 @@
 * home
+  
 ** declaration
    This document describes an effective means of maintaining the organization of resources within a user's home directory.
 ** foundation
